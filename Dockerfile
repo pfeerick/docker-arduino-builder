@@ -1,6 +1,6 @@
 FROM frolvlad/alpine-glibc
 
-ENV ARDUINO_IDE_VERSION 1.8.3
+ENV ARDUINO_IDE_VERSION 1.8.9
 
 RUN apk --no-cache add wget ca-certificates && \
     mkdir /opt && \
